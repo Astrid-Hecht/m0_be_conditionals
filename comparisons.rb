@@ -88,14 +88,17 @@ puts attendees != meals
 # YOU DO: Explain.
 # defines variables attendees and meals, then checks to make sure they arent the same
 # should print: true
+puts "\n"
+puts "\n"
 
 
 #-------------------
 # PART 3: Logical Operators
 #-------------------
-
+p "Logical operators"
 is_hungry = true
 finished_homework = false
+puts "\n"
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
@@ -109,16 +112,22 @@ loves_treats = true
 age = 1
 
 # YOU DO:
-# Determine if the dog loves to play and loves treats
+p "Determine if the dog loves to play and loves treats"
+p loves_to_play && loves_treats
+puts "\n"
 
+p "Determine if the dog loves to play and loves the dog park"
+p loves_to_play && loves_dog_park
+puts "\n"
 
-# Determine if the dog loves to play and loves the dog park
+p "Determine if the dog loves to play or loves the dog park"
+p loves_to_play || loves_dog_park
+puts "\n"
 
-
-# Determine if the dog loves to play or loves the dog park
-
-
-# Determine if the dog loves to play and is a puppy
+p "Determine if the dog loves to play and is a puppy"
+p loves_to_play && age <= 1
+puts "\n"
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: True. A dog stops being a puppy between the ages of 1 and 2, so since it's age at the very bottom of that range, I made being older than 1 the cutoff for puppyhood
+# i.e. any older than one is no longer a puppy
