@@ -68,20 +68,26 @@ puts "\n"
 
 puts 4 < 9
 #YOU DO: Explain.
+# Compares whether 4 is less than 9. Should print: true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# defines variable books with an int value of three and then checks if books is greater than 4. Should print: false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# defines variables friends and siblings, set them to 6 and 2 respectively, then checks to see if there are more friends than siblings
+# should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# defines variables attendees and meals, then checks to make sure they arent the same
+# should print: true
 
 
 #-------------------
