@@ -1,4 +1,4 @@
-number = 10
+number = 1087394579025
 if number / 3 * 3 == number && number / 5 * 5 == number
   puts "FizzBuzz"
 elsif number / 3 * 3 == number && number / 5 * 5 != number
